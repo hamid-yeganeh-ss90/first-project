@@ -23,6 +23,7 @@ header {
   grid-column: 2/-1;
   grid-row: 1;
   background-color: blue;
+  padding: 0 1rem;
 }
 article {
   grid-column: 2/-1;
