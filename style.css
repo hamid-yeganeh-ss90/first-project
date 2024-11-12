@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  grid-template-rows: 2fr 10fr 3fr;
+  height: 100%;
+}
+header,
+article,
+aside,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+header {
+  grid-column: 2/-1;
+  grid-row: 1;
+  background-color: blue;
+}
+article {
+  grid-column: 2/-1;
+  grid-row: 2;
+  background-color: pink;
+}
+aside {
+  grid-column: 1;
+  grid-row: 1/-1;
+  background-color: red;
+}
+footer {
+  grid-column: 2/-1;
+  grid-row: 3;
+  background-color: purple;
+}
