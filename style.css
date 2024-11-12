@@ -9,7 +9,6 @@ body {
   height: 100%;
 }
 header,
-article,
 footer {
   display: flex;
   justify-content: center;
@@ -29,6 +28,11 @@ article {
   grid-column: 2/-1;
   grid-row: 2;
   background-color: pink;
+  color: #141414;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: justify;
 }
 aside {
   grid-column: 1;
