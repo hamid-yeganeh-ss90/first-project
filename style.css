@@ -1,7 +1,10 @@
 body {
   height: 100vh;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .container {
   display: grid;
   grid-template-columns: 1fr 7fr;
@@ -47,6 +50,14 @@ aside ul {
   display: flex;
   flex-direction: column;
   row-gap: 3.25rem;
+  cursor: pointer;
+}
+aside ul li {
+  transition: all 0.3s linear;
+}
+aside ul li:hover,
+aside ul li a:hover {
+  color: grey;
 }
 footer {
   grid-column: 2/-1;
